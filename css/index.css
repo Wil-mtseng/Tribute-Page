@@ -2,56 +2,7 @@ body {
 	margin: none;
 	padding: none;
 }
-
 #main {
-	height: 100%;
-	display: grid;
-	grid-gap: 3px;
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 90px 500px 150px;
-	grid-template-areas: 
-		". h h h h h h h h h h ."
-		". c c c c c c c c c c ."
-		". m m m m m m m m m m . ";
-	background: grey;
-}
-
-#title {
-	grid-area: h;
-	align-self: center;
-	justify-self: center ;
-	background-color: orange;
-	}
-
-#img-div{
-	grid-area: c; 
-	background-color: green;
-	align-content: center;
-	display: block;
-	width: 50%;
-	margin: auto auto;
-}
-
-#img {
-	grid-area: c;
-	max-width: 50%;
-	margin: 50%;
-}
-#img-caption {
-	grid-area: c;
-	grid-column-start: 4;
-	grid-column-end: 22;
-}
-
-#tribute-info, p, a {
-	grid-area: m;
-	background-color: pink;
+	display: flex;
 
 }
-
-
-
-#tribute-info-li {
-	grid-area: m;
-}
-
