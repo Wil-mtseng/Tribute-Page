@@ -1,8 +1,75 @@
 body {
-	margin: none;
-	padding: none;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
 }
+/*Body*/
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #FFF;
+	font-family: sans-serif; 
+}
+
+/* Main section*/
 #main {
 	display: flex;
+	/*height: 100vh;*/
+	/*background-color: #1F1F1F;*/
+	/*background-image: url(../img/LarryTesler.jpeg);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	flex-direction: column;
+	/*justify-content: center;*/
+	align-items: center;
+}
+
+
+#title {
+	text-align: center;
+	font-size: 50px;
+	color: #000;
+}
+
+#title_paragraph {
+	color: #FFF;
+}
+
+#img-caption {
+	color: #FFF;
+}
+
+#image {
+	
+	border: 5px solid #000;
+}
+
+#img-div {
+	/*background-image: url("../img/larrytesler.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;*/
+ 	border-style: 25px solid black;
+}
+
+#figcaption_paragraph {
+	color: #FFF;
 
 }
+
+#tribute-info {
+ 	
+}
+
+#tribute-info-li {
+	color: #FFF;
+}
+
+.tribute-li {
+	margin: 5px;
+}
+
+h3 {
+	color: #1F1F1F;
+}
+/*Media query*/
