@@ -1,4 +1,4 @@
-#Responsive Tribute Page .
+# Responsive Tribute Page.
 
 Tribute page about Larry Gorden Tesler.
 
