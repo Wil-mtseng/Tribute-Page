@@ -2,10 +2,11 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background-color: hsl(0, 0%, 0%, 1.0);
-	font-family: sans-serif; 
+	background-color: hsl(0, 0%, 100%,);
+	font-family: sans-serif;
 	box-sizing: border-box;
-
+	background-color: #F6F6F6; 
+	overflow-x: hidden;
 }
 
 /* Main section*/
@@ -21,7 +22,7 @@ html, body {
 #header {
 	text-align: center;
 	width: 100vw;
-	background-color: #000; 
+	margin:5px;
 }
 
 /*Article section*/
@@ -43,54 +44,71 @@ html, body {
 	height: auto;
 	padding: 5px;
 	margin: 10px;
+
 }
 
 /*Title section*/
 #title {
+	margin: 5px;
+	padding: 5px;
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
 	font-size: 50px;
-	color: orange;
+	color: #000;
 }
 
 #title_paragraph {
-	color: orange;
+	text-align: center;
+	padding-bottom: 20px;
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+
 }
 
 /*Image section*/
 #img-caption {
-	color: #FFF;
+	color: #000;
 	margin-top: 10px;
-	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
 }
 
-#image {
-	display: inline-block;
+
+img {
+	display: block;
 	max-width: 100%;
 	height: auto;
+	box-shadow: 3px 3px 5px 6px #ccc;
+	background-color: #FFF;
 }
 
-#img-div-1, #img-div-2 {
+#img-div {
 	max-width: 100%;
-	height: auto;
+	height: 100%;
 	text-align: center;
+
 }
 
 /*Tribute section*/
-#tribute-info-1, #tribute-info-2 {
-	width: 30%;
- 	color: #FFF;
+#tribute-info {
+	width: 50%;
+	height: auto;
 }
 
 #tribute-info-li {
 	width: 40%;
-	height: 60%;
-	color: #FFF;
+	height: auto;
+	color: #000;
 }
 
 .tribute-li {
+	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
+	font-weight: bold;
 	padding: 3px;
 	margin: 5px;
+	height: auto;
+	color: #000;
 }
 
 ul {
@@ -99,9 +117,13 @@ ul {
 
 h3 {
 	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	text-align: center;
-	color: orange;
+	color: #000;
+
+	/*text-decoration: underline;
+	text-decoration-color: orange;*/
 }
 
 /*Media queries*/
@@ -123,7 +145,7 @@ h3 {
 		width: 100vw;
 	}
 
-	#tribute-info-1, #tribute-info-2 {
+	#tribute-info {
 		width: 100%;
 		height: auto;
 	}
